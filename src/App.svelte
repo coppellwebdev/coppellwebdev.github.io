@@ -1,7 +1,7 @@
 <script>
   import {Navbar, Button } from "spaper";
   import Officer from "./Officer.svelte";
-  import { Discord, Youtube, Github} from "@icons-pack/svelte-simple-icons";
+  import { Discord, Github} from "@icons-pack/svelte-simple-icons";
   import Particles from "svelte-particles";
   import { loadSlim } from "tsparticles-slim"; 
 
@@ -652,6 +652,12 @@
     #title {
       font-size: 1.75em;
     }
+    .responsive-iframe-container {
+      width: 95%;
+      margin-left: 2.5%;
+      padding-bottom: 80%;
+
+    }
 
     #subject-input,
     #subject-text {
@@ -680,6 +686,16 @@
         display: none;
     }
   }
+  @media screen and (max-width: 1280px) {
+    .responsive-iframe-container {
+      width: 85%;
+      margin-left: 7.5%;
+      padding-bottom: 60%;
+
+    }
+    
+  }
+
 
 
 </style>

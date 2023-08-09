@@ -68,12 +68,10 @@
     color: #e74b36 ;
   }
   .links,
-
+  
   :global(svg) {
     height: 30px;
     width: 30px;
   }
-  :global(title) {
-    color:whitesmoke
-  }
+
 </style>
