@@ -10,44 +10,45 @@
   export let description;
 </script>
 
-<Card
-  title={name}
-  {image}
-  imageAlt="{name}'s pic"
-  subTitle={title}
-  width="15.5em"
->
+<Card {image} imageAlt="{name}'s pic" width="15.5em">
+  <span slot="title" class="text-warning">
+    {name}
+  </span>
+  <span slot="subTitle" class="text-danger">
+    {title}
+  </span>
+
   <p style="color: whitesmoke">{description}</p>
-  <p style="" >{title}</p>
   <p slot="bottom" class="links">
     
     {#if github}
       <a href={github} target="_blank">
-        <span><Github/></span>
+        <span class="icon"><Github/></span>
       </a>
     {/if}
 
     {#if mail}
       <a href={"mailto:" + mail}>
-        <span><Icon icon="ci:mail" /></span>
+        <span class="icon"><Icon icon="ci:mail" /></span>
       </a>
     {/if}
 
     {#if website}
       <a href={website} target="_blank">
-        <span><Icon icon="ci:window-code-block" /></span>
+        <span class="icon"><Icon icon="ci:window-code-block" /></span>
       </a>
     {/if}
 
     {#if linkedin}
         <a href={linkedin} target="_blank">
-            <span><Icon icon="mdi:linkedin"/></span>
+            <span class="icon"><Icon icon="mdi:linkedin"/></span>
         </a>
     {/if}  
   </p>
 </Card>
 
 <style>
+
   .links {
     margin-top: 2rem;
     display: flex;
@@ -60,18 +61,25 @@
     margin: 0 !important;
   }
 
-  span {
+  .icon {
     /* font-size: 30px; */
     color: whitesmoke;
   }
-  span:hover {
+  .icon:hover {
     color: #e74b36 ;
   }
   .links,
-  
+
   :global(svg) {
     height: 30px;
     width: 30px;
+  }
+  .text-warning {
+    color: whitesmoke;
+  }
+  
+  .text-danger {
+    color: #e74b36;
   }
 
 </style>

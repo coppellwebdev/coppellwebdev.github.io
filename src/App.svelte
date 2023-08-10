@@ -184,7 +184,7 @@
     {
       name: "XXX",
       description: "XXX",
-      title: "Head of Outreach",
+      title: "Head of Education",
       image: "./images/",
       github: "https://github.com",
       mail: "gmail.com",
@@ -194,7 +194,7 @@
     {
       name: "XXX",
       description: "XXX",
-      title: "Head of Education",
+      title: "Head of Logistics",
       image: "./images/",
       github: "https://github.com",
       mail: "gmail.com",
@@ -202,7 +202,7 @@
 
     }
   ];
-
+  
   async function onSubmit() {
     disabled = "Sending...";
     const res = await fetch("https://formspree.io/f/mrgwpbdd", {
@@ -260,7 +260,7 @@
   />
 
   <div class="webdiv">
-    <h1 id="title">CHS Web Development</h1>
+    <h1 id="title">Coppell HS Web Development</h1>
   </div>
 
   <div class="intro" id="what">
