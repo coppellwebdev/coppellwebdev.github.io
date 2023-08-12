@@ -212,7 +212,7 @@
       },
       method: "POST",
       mode: "no-cors",
-      body: JSON.stringify({ email, text }),
+      body: JSON.stringify({ name, email, text }),
     });
     disabled = "Sent!";
     setTimeout(() => {
@@ -405,8 +405,9 @@
             text == null ||
             email.length == 0 ||
             text.length == 0 ||
-            disabled.length !== 0}>{disabled || "Send!"}</Button
-        >
+            name.length == 0 ||
+            disabled.length !== 0}>{disabled || "Send!"}
+        </Button>
       </div>
     </form>
   </div>

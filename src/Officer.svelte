@@ -10,10 +10,13 @@
   export let description;
 </script>
 
-<Card {image} imageAlt="{name}'s pic" width="15.5em">
+<div class="card">
+  <Card {image} imageAlt="{name}'s pic" width="15em" style="z-index:1">
+  
   <span slot="title" class="text-warning">
     {name}
   </span>
+  
   <span slot="subTitle" class="text-danger">
     {title}
   </span>
@@ -46,6 +49,7 @@
     {/if}  
   </p>
 </Card>
+</div>
 
 <style>
 
@@ -81,5 +85,4 @@
   .text-danger {
     color: #e74b36;
   }
-
 </style>
