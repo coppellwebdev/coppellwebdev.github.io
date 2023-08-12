@@ -233,7 +233,7 @@
       <li><a href="#schedule" class="header-item"> Our Schedule</a></li>
       <li id="involved-li"><a href="#started" class="header-item"> Get Started/&gt;</a></li>
       <li>
-        <Button style="font-size:1.25em;padding-bottom:0.15em;border-color:#808080" href="https://github.com/" external>
+        <Button style="font-size:1.25em;padding-bottom:0.15em;border-color:#808080" href="https://github.com/coppellwebdev" external>
           <Github/>
         </Button>
       </li>
@@ -304,7 +304,7 @@
   <!-- buttons for discord and github-->
   <div class="contacts">
     <a
-      href="https://discord.com/"
+      href="https://discord.gg/jtrvsFQV"
       target="_blank"
       class="button cta discord"
     >
@@ -320,7 +320,7 @@
     </a>-->
 
     <a
-      href="https://github.com"
+      href="https://github.com/coppellwebdev"
       target="_blank"
       class="button cta meeting-demos"
     >
