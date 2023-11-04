@@ -155,7 +155,7 @@
     },
     {
       name: "Nishnath Polavarapu",
-      description: "live life love Drake",
+      description: "live laugh love Drake",
       title: "Head of Back End",
       image: "./images/Nishnath.jpg",
       mail: "nishnath.polavarapu@gmail.com",
