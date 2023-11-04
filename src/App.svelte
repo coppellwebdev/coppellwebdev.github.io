@@ -138,7 +138,7 @@
       description: "add, commit, push, repeat",
       title: "President/Founder",
       image: "./images/Aryan.jpg",
-      github: "https://github.com",
+      github: "https://github.com/ABansal11",
       mail: "bansalaryan1011@gmail.com",
     //website: "",
     //linkedin: "https://linkedin.com"
