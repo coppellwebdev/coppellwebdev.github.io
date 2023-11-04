@@ -562,7 +562,7 @@
   .officers {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5em;
+    gap: 1.2em;
     justify-content: center;
     z-index: 1;
   }
