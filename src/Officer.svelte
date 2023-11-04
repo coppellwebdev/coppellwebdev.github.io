@@ -11,7 +11,7 @@
 </script>
 
 
-<Card {image} imageAlt="{name}'s pic" width="10.5em" style="z-index:1">
+<Card {image} imageAlt="{name}'s pic" width="15em" style="z-index:1">
   
   <span slot="title" class="text-warning">
     {name}
