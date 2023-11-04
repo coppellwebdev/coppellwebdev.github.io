@@ -132,75 +132,76 @@
   let disabled = "";
   
   const officers = [
-      {
-      name: "XXX",
-      description: "XXX",
-      title: "Club Sponsor",
-      image: "./images/",
-    //github: "https://github.com",
-      mail: "gmail.com",
+
+    {
+      name: "Aryan Bansal",
+      description: "add, commit, push, repeat",
+      title: "President/Founder",
+      image: "./images/Aryan.jpg",
+      github: "https://github.com",
+      mail: "bansalaryan1011@gmail.com",
+    //website: "",
     //linkedin: "https://linkedin.com"
       
     },
     {
-      name: "XXX",
-      description: "XXX",
-      title: "President/Founder",
-      image: "./images/",
-      github: "https://github.com",
-      mail: "gmail.com",
-    //website: "",
-      linkedin: "https://linkedin.com"
-      
-    },
-    {
-      name: "XXX",
-      description: "XXX",
+      name: "Abhilash Katuru",
+      description: "Spotify > Apple Music",
       title: "Vice President",
-      image: "./images/",
-      github: "https://github.com",
-      mail: "gmail.com",
-      linkedin: "https://linkedin.com",
+      image: "./images/Abhilash.jpg",
+      github: "https://github.com/abhilashKaturu/",
+      mail: "abhilashkaturu@gmail.com",
+    //linkedin: "https://linkedin.com",
     },
     {
-      name: "XXX",
-      description: "XXX",
+      name: "Nishnath Polavarapu",
+      description: "live life love Drake",
       title: "Head of Back End",
-      image: "./images/",
-      mail: "gmail.com",
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      image: "./images/Nishnath.jpg",
+      mail: "nishnath.polavarapu@gmail.com",
+      github: "https://github.com/NishnathPolav",
+      linkedin: "https://www.linkedin.com/in/nishnath-polavarapu-839a24236/",
       
     },
     {
-      name: "XXX",
-      description: "XXX",
+      name: "Keertan Chennupati",
+      description: "Dublin is my city",
       title: "Head of Design",
-      image: "./images/",
-      github: "https://github.com",
-      mail: "gmail.com",
-      linkedin: "https://linkedin.com"
+      image: "./images/Keertan.jpg",
+      github: "https://github.com/keertan12345",
+      mail: "keertan12345@gmail.com",
+    //linkedin: "https://linkedin.com"
     },
     {
-      name: "XXX",
-      description: "XXX",
+      name: "Siddhartha Guntupalli",
+      description: "Luka is the GOAT",
       title: "Head of Education",
-      image: "./images/",
-      github: "https://github.com",
-      mail: "gmail.com",
-      linkedin: "https://linkedin.com",
+      image: "./images/Sid.jpg",
+      github: "https://github.com/SiddharthaG09",
+      mail: "siddu@guntupalli.net",
+      linkedin: "https://www.linkedin.com/in/siddhartha-guntupalli-168817279/",
 
     },
     {
-      name: "XXX",
-      description: "XXX",
-      title: "Head of Logistics",
-      image: "./images/",
-      github: "https://github.com",
-      mail: "gmail.com",
-      linkedin: "https://linkedin.com",
+      name: "Anmol Deepak",
+      description: "dinosaurs and code are kool",
+      title: "Logistics Manager",
+      image: "./images/Anmol.jpg",
+      github: "https://github.com/greatdino11",
+      mail: "anmoldeepak.greatdino11@gmail.com",
+    //linkedin: "https://linkedin.com",
 
-    }
+    },      
+    {
+      name: "Vishnu Marella",
+      description: "I'm a pro at cranking 90s",
+      title: "Outreach Coordinator",
+      image: "./images/Vishnu.jpg",
+      github: "https://github.com/vpm5637",
+      mail: "vishnu.p.marella@gmail.com",
+    //linkedin: "https://linkedin.com"
+      
+    },
   ];
   
   async function onSubmit() {
@@ -260,16 +261,16 @@
   />
 
   <div class="webdiv">
-    <h1 id="title">Coppell HS Web Development</h1>
+    <h1 id="title">Coppell Web Development</h1>
   </div>
 
   <div class="intro" id="what">
     <h2 class="section-header">Our Work</h2>
-    <h3 id="info">CHS Web Dev is all about the magic: We make pixels dance and code transform.</h3>
+    <h3 id="info">Coppell Web Dev is all about the magic: We make pixels dance and code transform.</h3>
     <p id="intro-p">
       Our mission is to expand students' interest in web development, and use it as a medium to help our community. 
       <br />We begin from scratch and progress seamlessly to create websites following the latest web development trends.
-      <br />And of course... we look to dabble in a couple of innovative projects on the way!
+      <br />And of course... we look to dabble in a couple of innovative projects along the way!
     </p>
   </div>
 
